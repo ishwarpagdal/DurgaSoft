@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-16T07:48:33 IST" name="ORHM" finished-at="2023-08-16T07:48:33 IST" duration-ms="192">
+    <groups>
+      <group name="Sometesting">
+        <method signature="MultipleTestNG.add()[pri:0, instance:com.selenium.TestNG.MultipleTestNG@4efac082]" name="add" class="com.selenium.TestNG.MultipleTestNG"/>
+        <method signature="MultipleTestNG.div()[pri:0, instance:com.selenium.TestNG.MultipleTestNG@4efac082]" name="div" class="com.selenium.TestNG.MultipleTestNG"/>
+      </group> <!-- Sometesting -->
+      <group name="Regressiontesting">
+        <method signature="MultipleTestNG.mul()[pri:0, instance:com.selenium.TestNG.MultipleTestNG@4efac082]" name="mul" class="com.selenium.TestNG.MultipleTestNG"/>
+        <method signature="MultipleTestNG.sub()[pri:0, instance:com.selenium.TestNG.MultipleTestNG@4efac082]" name="sub" class="com.selenium.TestNG.MultipleTestNG"/>
+      </group> <!-- Regressiontesting -->
+    </groups>
+    <test started-at="2023-08-16T07:48:33 IST" name="SmokeTesting" finished-at="2023-08-16T07:48:33 IST" duration-ms="192">
+      <class name="com.selenium.TestNG.MultipleTestNG">
+        <test-method signature="add()[pri:0, instance:com.selenium.TestNG.MultipleTestNG@4efac082]" started-at="2023-08-16T07:48:33 IST" name="add" finished-at="2023-08-16T07:48:33 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method signature="div()[pri:0, instance:com.selenium.TestNG.MultipleTestNG@4efac082]" started-at="2023-08-16T07:48:33 IST" name="div" finished-at="2023-08-16T07:48:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method signature="mul()[pri:0, instance:com.selenium.TestNG.MultipleTestNG@4efac082]" started-at="2023-08-16T07:48:33 IST" name="mul" finished-at="2023-08-16T07:48:33 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method signature="sub()[pri:0, instance:com.selenium.TestNG.MultipleTestNG@4efac082]" started-at="2023-08-16T07:48:33 IST" name="sub" finished-at="2023-08-16T07:48:33 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+      </class> <!-- com.selenium.TestNG.MultipleTestNG -->
+    </test> <!-- SmokeTesting -->
+  </suite> <!-- ORHM -->
+</testng-results>

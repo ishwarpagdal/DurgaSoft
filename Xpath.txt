@@ -1,0 +1,189 @@
+Writing Customized  Xpath:-
+==================
+
+//searchfield in amazon
+<input id="twotabsearchtextbox" class="nav-input" type="text" tabindex="6" dir="auto" placeholder="" autocomplete="off" name="field-keywords" value=""/>
+
+<a class="gb_P" href="https://mail.google.com/mail/?tab=wm" data-pid="23">Gmail</a>
+
+.//*[@id='gbw']/div/div/div[1]/div[1]/a
+
+//a[@class='gb_P']
+
+tagName        -             input
+
+attributes       -            values
+
+id                  -             twotabsearchtextbox
+
+className     -              nav-input
+
+type              -              text
+
+
+Syntax:-
+=======
+//tagName[@attribute='value']
+
+//input[@id='twotabsearchtextbox']
+
+//*[@id='twotabsearchtextbox']
+
+//*[@id='gbw']/div/div/div[1]/div[1]/a
+
+//a[@class='gb_P']/
+//*[@id='gb']/div/div[1]/div[1]/a
+
+
+//*[@class='gb_P']
+
+
+*    - represent any tagName
+
+
+-->Xpath Based On id Property
+
+//input[@id='twotabsearchtextbox']
+
+-->xpath Based On name Property
+//input[@name='field-keywords']
+
+-->Xpath based on multiple property
+ 
+or
+//a[@class='gb_P'][@data-pid='2']
+
+--->Xpath Based on Parent properties
+
+//div[@class='nav-search-field ']/input
+
+
+text():
+====
+find the link as it dispays the text 
+
+syntax:
+=====
+
+//*[text()='the visible text']
+Ex:
+//*[text()='Images']
+
+(//*[text()='Gmail'])[1]
+
+
+//--->Searching Element in Entire Page
+/---->Searching Element in Current Node
+identifying precedinding elements:
+------------------------------
+
+.//*[@id='username']/preceding::input[2]
+
+identifying precedinding elements:
+------------------------------
+.//*[@id='username']/following::input[2]
+RedBusTest
+
+.//*[@id='search']/div/div[1]/div/ul/li[1]
+.//*[@id='search']/div/div[1]/div/ul/li[2]
+.//*[@id='search']/div/div[1]/div/ul/li[3]
+ 
+Generic Xpath:
+.//*[@id='search']/div/div[1]/div/ul/li
+
+.//*[@id='category-dropdown']/ul/li
+.//*[@id='category-dropdown']/ul/li
+
+
+Dynamic Xpath:-
+=================
+.//*[@id='yui_3_18_0_3_1530003925221_933']
+.//*[@id='yui_3_18_0_3_1530003969546_936']
+
+
+.//*[@id='yui_3_18_0_3_1534304380110_710']/div/div/div/ul/li[3]/span/span/b
+.//*[@id='yui_3_18_0_3_1534304438022_205']/div/div/div/ul/li[3]/span/span/b
+
+
+.//*[@id='yui_3_18_0_3_1531973820297_205']/div/div/div/ul/li[3]/span/span/b
+
+//*[starts-with(@id,'yui_3_18_0_3_15')]/div/div/div/ul/li/span/span/b
+
+//*[contains(@id,'ui_3_18_0_3_15')]/div/div/div/ul/li/span/span/b
+//first time
+.//*[@id='yui_3_18_0_3_1577696119964_740']
+//second time 
+.//*[@id='yui_3_18_0_3_1541381910717_720']
+//created xpath
+
+
+//*[starts-with(@id,'yui_3_18_0_3_15')]
+//*[contains(@id,'ui_3_18_0_3_15')]/span
+
+
+u_0_0_iA
+
+u_0_0_3n
+
+//*[starts-with(@id,'u_0_0_')]
+
+
+//*[contains(@id,'_0_0_')]
+
+
+1.Starts-with()---
+
+2.ends-with()
+
+3.contains()
+--------------------
+
+.//*[@id='yui_3_18_0_3_1545104967723_782']
+
+.//*[@id='yui_3_18_0_3_1545105017033_764']
+
+strats-with
+//Syntax
+
+//*[starts-with(@id,'yui_3_18_0_3_15')]
+
+-----------
+contains
+
+//*[contains(@id,'ui_3_18_0_3_15')]
+
+ends-with
+//*[ends-with(@id,'358138_1169')]
+
+preceding elements :
+
+.//*[@id='username']/preceding::input[1]
+
+
+following elements
+
+
+u_0_0_Zn
+
+u_0_0_vY
+
+//*[starts-with(@id,'u_0_0_')]
+
+//*[contains(@id,'u_0_0')]
+
+
+id=u_0_0_tv
+
+id=u_0_0_G9
+
+id=u_0_0_uP
+
+//*[starts-with(@id,'u_0_0_')]
+
+//*[contains(@id,'u_0_0')]
+
+
+//a[contains(text(),'gma')]
+
+//a[normalize-space(text())='Gmail']
+

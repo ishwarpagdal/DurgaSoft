@@ -1,0 +1,39 @@
+step:1
+First Download Git From Website https://git-scm.com/download
+and Install Git
+step:2 Click on All Programs Select--Git---->GitBash
+Step:3---->Goto Ur Project by Writing the Below commands in GitBash
+Ex:
+cd C:
+Cd 123
+Cd Chandan
+Step 4:After Selecting Project Directory
+Next Enter the Command -->git init (Initialized Empty Git Repository in C:/123/chandan/.git)
+Step5:Enter Command -->git add .-->Enter
+step6:Enter Command --->git commit -m "commit"---Enter
+(If We are Firsttime Configuring It Will Ask the Details ...Provide the Details see the Below Navigations)
+  --->copy the command git config --global user.email "you@example.com" in gitBash and Change the EmailAddress then Click on Enter
+---->Next -->Copy The Command   git config --global user.name "Your Name" and then Provide name In that --->Then Click on Enter
+Step7:Enter Command git add . in gitBash Click Enter
+step8:Enter Command git commit -m "Commit" Click Enter
+"Then It Will Display What are The Files Uploaded
+Step8:Open the Url https://github.com/ Create One Account in GitHub
+Enter UserName
+Enter Email-Id
+Enter Password
+Click On CreateAccount
+Step 9: Click On + Symbol Then Select New Repository-->It Will Ask Email Verification Status
+
+step 10:After Completion of Verification Process It Will Display GitHubLogin Page Here agin Click on + Symbol Select NewRepository
+
+Provide Name For Repository then Click on Create
+Step 11:After Creating New Repository We Need to Upload our Files in to Repository
+
+--->Enter  the Command git remote add origin https://github.com/Vasudeva12/Vasu-123.git in GitBash and click Enter
+--->Enter The Command $ git push -u origin master and Click Enter 
+
+---> Then it Will Ask Ur GitHub UserName And Password Enter Details and Click ok
+Ex:
+Then Verify Ur Repository in Git Hub
+
+www.github.com/RepositoryName
